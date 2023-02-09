@@ -21,6 +21,7 @@ def main():
         numbers.append(int(input("Enter number at index " + str(i) + ": ")))
     print("The sum is " + str(sum_list(numbers)) + ".")
     print("The product is " + str(product_list(numbers)) + ".")
+    print("The reverse of the list is " + str(reverse_list(numbers)) + ".")
 
 
 if __name__ == '__main__':
