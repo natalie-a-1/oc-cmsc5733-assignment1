@@ -14,6 +14,7 @@ def reverse_list(numbers):
     return numbers
 
 
+# change to add
 def main():
     numbers = []
     n = int(input("Enter the list size: "))
