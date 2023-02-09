@@ -9,6 +9,11 @@ def product_list(numbers):
     return numpy.product(numbers)
 
 
+def reverse_list(numbers):
+    numbers.reverse()
+    return numbers
+
+
 def main():
     numbers = []
     n = int(input("Enter the list size: "))
